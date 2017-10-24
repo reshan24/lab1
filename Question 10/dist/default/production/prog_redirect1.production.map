@@ -1,0 +1,121 @@
+MPLINK 5.00, LINKER
+Linker Map File - Created Mon Oct 23 23:03:54 2017
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                     TEST       code   0x000000    program   0x000002
+                    TEST2       code   0x000008    program   0x000002
+                      STP       code   0x00002a    program   0x000082
+                     TSK1       code   0x0000ac    program   0x000014
+                     INT1       code   0x0000c0    program   0x00000c
+                     TSK2       code   0x0000cc    program   0x000006
+                     STRT       code   0x000200    program   0x000004
+                   .cinit    romdata   0x000204    program   0x000002
+                      INT       code   0x000208    program   0x000004
+                       TM       code   0x00020c    program   0x0002f4
+                      ACS      udata   0x000000       data   0x000009
+                      TBL      udata   0x000080       data   0x000044
+              _TM_SCRATCH      udata   0x0000c4       data   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000001      
+                            0x000008    0x000009      
+                            0x00002a    0x0000d1      
+                            0x000200    0x000205      
+                            0x000208    0x0004ff      
+            938 out of 32786 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+     IncrimentTaskPointer   0x00035e    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+         InterruptHandler   0x0000c0    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+                   NxtTsk   0x000386    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+          RecallSavedData   0x0003ae    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+         SetPriorityTimer   0x000390    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+                    Setup   0x0000a6    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+                  TMSetup   0x00002a    program     static F:\ECNG3006\L01_815007687\prog_redirect1\startup.asm
+                    Task1   0x0000ac    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+                    Task2   0x0000cc    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+              TaskManager   0x00020c    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+                   TstTsk   0x00037a    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+                ALT_FSR2H   0x000006       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+                ALT_FSR2L   0x000005       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+               ALT_STATUS   0x000004       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+                   ALT_W0   0x000003       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+               BACKUP_BSR   0x000090       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR0H   0x000098       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR0L   0x000094       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR1H   0x0000a0       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR1L   0x00009c       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR2H   0x0000c0       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR2L   0x0000bc       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_PRODH   0x0000a4       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_PRODL   0x0000a8       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+            BACKUP_STATUS   0x000088       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+            BACKUP_TABLAT   0x0000b8       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+           BACKUP_TBLPTRH   0x0000b0       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+           BACKUP_TBLPTRL   0x0000b4       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+           BACKUP_TBLPTRU   0x0000ac       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+              BACKUP_WREG   0x000084       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+            TABLE_POINTER   0x000001       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+              TASK_BUFFER   0x000008       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             TASK_COMMAND   0x000007       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             TASK_COUNTER   0x000002       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+          TASK_INFO_TABLE   0x00008c       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             TASK_POINTER   0x000000       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+               TASK_TABLE   0x000080       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+                     TEMP   0x0000c4       data     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  TMSetup   0x00002a    program     static F:\ECNG3006\L01_815007687\prog_redirect1\startup.asm
+                    Setup   0x0000a6    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+                    Task1   0x0000ac    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+         InterruptHandler   0x0000c0    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+                    Task2   0x0000cc    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\testprog.asm
+              TaskManager   0x00020c    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+     IncrimentTaskPointer   0x00035e    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+                   TstTsk   0x00037a    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+                   NxtTsk   0x000386    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+         SetPriorityTimer   0x000390    program     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+          RecallSavedData   0x0003ae    program     extern F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+             TASK_POINTER   0x000000       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+            TABLE_POINTER   0x000001       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             TASK_COUNTER   0x000002       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+                   ALT_W0   0x000003       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+               ALT_STATUS   0x000004       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+                ALT_FSR2L   0x000005       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+                ALT_FSR2H   0x000006       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             TASK_COMMAND   0x000007       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+              TASK_BUFFER   0x000008       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+               TASK_TABLE   0x000080       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+              BACKUP_WREG   0x000084       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+            BACKUP_STATUS   0x000088       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+          TASK_INFO_TABLE   0x00008c       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+               BACKUP_BSR   0x000090       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR0L   0x000094       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR0H   0x000098       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR1L   0x00009c       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR1H   0x0000a0       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_PRODH   0x0000a4       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_PRODL   0x0000a8       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+           BACKUP_TBLPTRU   0x0000ac       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+           BACKUP_TBLPTRH   0x0000b0       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+           BACKUP_TBLPTRL   0x0000b4       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+            BACKUP_TABLAT   0x0000b8       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR2L   0x0000bc       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+             BACKUP_FSR2H   0x0000c0       data     extern F:\ECNG3006\L01_815007687\prog_redirect1\var.inc
+                     TEMP   0x0000c4       data     static F:\ECNG3006\L01_815007687\prog_redirect1\tm.asm
+
+
