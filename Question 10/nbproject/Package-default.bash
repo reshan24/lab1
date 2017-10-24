@@ -10,9 +10,9 @@ CND_CONF=default
 CND_DISTDIR=dist
 TMPDIR=build/${CND_CONF}/${IMAGE_TYPE}/tmp-packaging
 TMPDIRNAME=tmp-packaging
-OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/prog_redirect1.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-OUTPUT_BASENAME=prog_redirect1.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
-PACKAGE_TOP_DIR=progredirect1/
+OUTPUT_PATH=dist/${CND_CONF}/${IMAGE_TYPE}/Question_10.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+OUTPUT_BASENAME=Question_10.${IMAGE_TYPE}.${OUTPUT_SUFFIX}
+PACKAGE_TOP_DIR=question10/
 
 # Functions
 function checkReturnCode
@@ -57,15 +57,15 @@ mkdir -p ${TMPDIR}
 
 # Copy files and create directories and links
 cd "${TOP}"
-makeDirectory ${TMPDIR}/progredirect1/bin
+makeDirectory ${TMPDIR}/question10/bin
 copyFileToTmpDir "${OUTPUT_PATH}" "${TMPDIR}/${PACKAGE_TOP_DIR}bin/${OUTPUT_BASENAME}" 0755
 
 
 # Generate tar file
 cd "${TOP}"
-rm -f ${CND_DISTDIR}/${CND_CONF}/package/progredirect1.tar
+rm -f ${CND_DISTDIR}/${CND_CONF}/package/question10.tar
 cd ${TMPDIR}
-tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/progredirect1.tar *
+tar -vcf ../../../../${CND_DISTDIR}/${CND_CONF}/package/question10.tar *
 checkReturnCode
 
 # Cleanup
