@@ -7,7 +7,6 @@ __S2 0 0 ABS 0
 __Hintentry 0 0 ABS 0
 __Lintentry 0 0 ABS 0
 _LATB F8A 0 ABS 0
-__cntErrataNOP_C:\Users\reshan24\AppData\Local\Temp\sbpg.obj 1 0 ABS 0
 _main 6E4 0 CODE 0
 ___sp 0 0 STACK 2
 start 2 0 CODE 0
@@ -208,6 +207,7 @@ __size_of_DelayFor18TCY 0 0 ABS 0
 __cntErrataNOP_dist/default/production\lab1lcdxc8.production.obj 1B 0 ABS 0
 __end_of_putrsXLCD 824 0 CODE 0
 __initialization 910 0 CODE 0
+__cntErrataNOP_C:\Users\reshan24\AppData\Local\Temp\sc3c.obj 1 0 ABS 0
 __activetblptr 1 0 ABS 0
 __CFG_WDT$OFF 0 0 ABS 0
 __CFG_LVP$OFF 0 0 ABS 0
@@ -221,7 +221,7 @@ text3 61A 91F CODE 61A 0
 %locals
 dist/default/production\lab1lcdxc8.production.obj
 C:\Program Files (x86)\Microchip\xc8\v1.43\include\pic18f452.h
-C:\Users\reshan24\AppData\Local\Temp\sbpg.
+C:\Users\reshan24\AppData\Local\Temp\sc3c.
 631 910 0 CODE 0
 633 910 0 CODE 0
 636 910 0 CODE 0

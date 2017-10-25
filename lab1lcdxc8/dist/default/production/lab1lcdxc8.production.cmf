@@ -24,7 +24,7 @@ text7 CODE 0 8A8 8A8 42 1
 text8 CODE 0 900 900 10 1
 cstackCOMRAM COMRAM 1 1 1 3 1
 smallconst SMALLCONST 0 600 600 1A 1
-$C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+$C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 idloc IDLOC 0 200000 200000 8 1
 init CODE 0 2 2 4 1
 text CODE 0 91E 91E 2 1
@@ -215,16 +215,16 @@ $dist/default/production\lab1lcdxc8.production.obj
 782 text0 CODE >69:C:\Users\reshan24\Documents\ECNG3006\L01_814002127\lab1lcdxc8\lcdmain.c
 78E text0 CODE >70:C:\Users\reshan24\Documents\ECNG3006\L01_814002127\lab1lcdxc8\lcdmain.c
 79C text0 CODE >72:C:\Users\reshan24\Documents\ECNG3006\L01_814002127\lab1lcdxc8\lcdmain.c
-910 cinit CODE >631:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-910 cinit CODE >633:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-910 cinit CODE >636:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-910 cinit CODE >642:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-910 cinit CODE >645:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-912 cinit CODE >646:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-914 cinit CODE >647:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-916 cinit CODE >648:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-918 cinit CODE >649:C:\Users\reshan24\AppData\Local\Temp\sbpg.
-91A cinit CODE >650:C:\Users\reshan24\AppData\Local\Temp\sbpg.
+910 cinit CODE >631:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+910 cinit CODE >633:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+910 cinit CODE >636:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+910 cinit CODE >642:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+910 cinit CODE >645:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+912 cinit CODE >646:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+914 cinit CODE >647:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+916 cinit CODE >648:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+918 cinit CODE >649:C:\Users\reshan24\AppData\Local\Temp\sc3c.
+91A cinit CODE >650:C:\Users\reshan24\AppData\Local\Temp\sc3c.
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -243,26 +243,26 @@ __Hspace_0 30000E 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Hspace_1 4 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Hspace_2 0 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\lab1lcdxc8.production.obj
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\lab1lcdxc8.production.obj
 __Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\lab1lcdxc8.production.obj
 _LATB F8A 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
-___sp 0 0 STACK 2 stack C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+___sp 0 0 STACK 2 stack C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 _main 6E4 0 CODE 0 text0 dist/default/production\lab1lcdxc8.production.obj
-start 2 0 CODE 0 init C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+start 2 0 CODE 0 init C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 __size_of_main 0 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Hpowerup 2 0 CODE 0 powerup dist/default/production\lab1lcdxc8.production.obj
-__accesstop 80 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
-intlevel0 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
-intlevel1 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
-intlevel2 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
-intlevel3 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+__accesstop 80 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
+intlevel0 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
+intlevel1 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
+intlevel2 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
+intlevel3 91E 0 CODE 0 text C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\lab1lcdxc8.production.obj
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\lab1lcdxc8.production.obj
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\lab1lcdxc8.production.obj
 _ADCON1 FC1 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
-___inthi_sp 0 0 STACK 2 stack C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
-___intlo_sp 0 0 STACK 2 stack C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\lab1lcdxc8.production.obj
 __size_of_BusyXLCD 0 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\lab1lcdxc8.production.obj
@@ -305,7 +305,7 @@ __Htext7 0 0 ABS 0 text7 dist/default/production\lab1lcdxc8.production.obj
 __Htext8 0 0 ABS 0 text8 dist/default/production\lab1lcdxc8.production.obj
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\lab1lcdxc8.production.obj
 __Hbigram 0 0 ABS 0 bigram dist/default/production\lab1lcdxc8.production.obj
-__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 __Hcomram 0 0 ABS 0 comram dist/default/production\lab1lcdxc8.production.obj
 __Hconfig 30000E 0 CONFIG 0 config dist/default/production\lab1lcdxc8.production.obj
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\lab1lcdxc8.production.obj
@@ -333,6 +333,7 @@ __Ltext7 0 0 ABS 0 text7 dist/default/production\lab1lcdxc8.production.obj
 __Ltext8 0 0 ABS 0 text8 dist/default/production\lab1lcdxc8.production.obj
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\lab1lcdxc8.production.obj
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\lab1lcdxc8.production.obj
+__cntErrataNOP_C:\Users\reshan24\AppData\Local\Temp\sc3c.obj 1 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 _SetDDRamAddr 79E 0 CODE 0 text5 dist/default/production\lab1lcdxc8.production.obj
 __Habs1 0 0 ABS 0 abs1 dist/default/production\lab1lcdxc8.production.obj
 __Hdata 0 0 ABS 0 data dist/default/production\lab1lcdxc8.production.obj
@@ -380,8 +381,8 @@ __Lconfig 300000 0 CONFIG 0 config dist/default/production\lab1lcdxc8.production
 _LATDbits F8C 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\lab1lcdxc8.production.obj
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\lab1lcdxc8.production.obj
-stackhi 5FF 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
-stacklo 80 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+stackhi 5FF 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
+stacklo 80 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 __Lintcode 2 0 CODE 0 intcode dist/default/production\lab1lcdxc8.production.obj
 __Lintret 0 0 ABS 0 intret dist/default/production\lab1lcdxc8.production.obj
 __Lirdata 0 0 CODE 0 irdata dist/default/production\lab1lcdxc8.production.obj
@@ -390,7 +391,6 @@ __Lspace_0 0 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Lspace_1 0 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 __Lspace_2 0 0 ABS 0 - dist/default/production\lab1lcdxc8.production.obj
 _OpenXLCD 61A 0 CODE 0 text3 dist/default/production\lab1lcdxc8.production.obj
-__cntErrataNOP_C:\Users\reshan24\AppData\Local\Temp\sbpg.obj 1 0 ABS 0 - C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\lab1lcdxc8.production.obj
 _WriteCmdXLCD 866 0 CODE 0 text4 dist/default/production\lab1lcdxc8.production.obj
 end_of_initialization 910 0 CODE 0 cinit dist/default/production\lab1lcdxc8.production.obj
@@ -413,7 +413,7 @@ __ptext6 8EA 0 CODE 0 text6 dist/default/production\lab1lcdxc8.production.obj
 __ptext7 8A8 0 CODE 0 text7 dist/default/production\lab1lcdxc8.production.obj
 __ptext8 900 0 CODE 0 text8 dist/default/production\lab1lcdxc8.production.obj
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\lab1lcdxc8.production.obj
-__ramtop 600 0 RAM 0 ramtop C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+__ramtop 600 0 RAM 0 ramtop C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
 __Lpowerup 2 0 CODE 0 powerup dist/default/production\lab1lcdxc8.production.obj
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\lab1lcdxc8.production.obj
 _DelayPORXLCD 8EA 0 CODE 0 text6 dist/default/production\lab1lcdxc8.production.obj

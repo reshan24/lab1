@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=C:\Program Files (x86)\Microchip\xc8\v1.43\dat\en_msgs.txt -cs \
   -h+dist/default/production\lab1lcdxc8.production.sym \
   --cmf=dist/default/production\lab1lcdxc8.production.cmf -z -Q18F452 \
-  -oC:\Users\reshan24\AppData\Local\Temp\sbpg.2 \
+  -oC:\Users\reshan24\AppData\Local\Temp\sc3c.2 \
   -Mdist/default/production/lab1lcdxc8.production.map -E1 -ver=XC8 \
   -ASTACK=080h-05ffh -pstack=STACK -ACODE=00h-03FFFhx2 -ACONST=00h-07FFFh \
   -ASMALLCONST=0600h-06FFhx122 -AMEDIUMCONST=0600h-07FFFh -ACOMRAM=01h-07Fh \
@@ -21,7 +21,7 @@ Linker command line:
   -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
   -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
   -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
-  C:\Users\reshan24\AppData\Local\Temp\sbpg.obj \
+  C:\Users\reshan24\AppData\Local\Temp\sc3c.obj \
   dist/default/production\lab1lcdxc8.production.obj 
 
 Object code version is 3.11
@@ -34,7 +34,7 @@ Call graph: (short form)
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\reshan24\AppData\Local\Temp\sbpg.obj
+C:\Users\reshan24\AppData\Local\Temp\sc3c.obj
                 text                                91E      91E        2      30D       0
                 init                                  2        2        4        0       0
                 reset_vec                             0        0        2        0       0
@@ -312,7 +312,7 @@ ___rparam_used                                                   (abs)        00
 ___sp                                                            stack        000000
 __accesstop                                                      (abs)        000080
 __activetblptr                                                   (abs)        000001
-__cntErrataNOP_C:\Users\reshan24\AppData\Local\Temp\sbpg.obj     (abs)        000001
+__cntErrataNOP_C:\Users\reshan24\AppData\Local\Temp\sc3c.obj     (abs)        000001
 __cntErrataNOP_dist/default/production\lab1lcdxc8.production.obj (abs)        00001B
 __end_of_BusyXLCD                                                text7        0008EA
 __end_of_DelayFor18TCY                                           text8        000910
