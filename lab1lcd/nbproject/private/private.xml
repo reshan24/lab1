@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/busyxlcd.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/openxlcd.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/putrxlcd.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/putsxlcd.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/readaddr.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/readdata.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/setcgram.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/setddram.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/wcmdxlcd.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/writdata.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/lab1lcd.c</file>
-            <file>file:/C:/Users/reshan24/Desktop/ECNG3006/L01_815007687/lab1lcd.X/xlcd2.h</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
